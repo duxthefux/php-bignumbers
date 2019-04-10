@@ -5,8 +5,8 @@ namespace Litipk\BigNumbers;
 use Litipk\BigNumbers\DecimalConstants as DecimalConstants;
 use Litipk\BigNumbers\InfiniteDecimal as InfiniteDecimal;
 
-use Litipk\Exceptions\NotImplementedException as NotImplementedException;
-use Litipk\Exceptions\InvalidArgumentTypeException as InvalidArgumentTypeException;
+use \Exception as NotImplementedException;
+use \Exception as InvalidArgumentTypeException;
 
 /**
  * Immutable object that represents a rational number

@@ -4,8 +4,8 @@ namespace Litipk\BigNumbers;
 
 use Litipk\BigNumbers\Decimal as Decimal;
 use Litipk\BigNumbers\DecimalConstants as DecimalConstants;
-use Litipk\Exceptions\InvalidCastException;
-use Litipk\Exceptions\NotImplementedException;
+use \Exception as InvalidCastException;
+use \Exception as NotImplementedException;
 
 /**
  * Immutable object that represents an infinite number

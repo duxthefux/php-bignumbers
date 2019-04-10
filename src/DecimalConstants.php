@@ -3,7 +3,7 @@
 namespace Litipk\BigNumbers;
 
 use Litipk\BigNumbers\Decimal as Decimal;
-use Litipk\Exceptions\InvalidArgumentTypeException;
+use InvalidArgumentException as InvalidArgumentTypeException;
 
 
 /**
